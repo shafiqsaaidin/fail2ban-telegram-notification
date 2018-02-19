@@ -22,8 +22,8 @@ function show_usage {
 
 # Send notification
 function send_msg {
-  apiToken=540667387:AAHnZNzGfJVfCa2ZNXx1hzBFVHdY4PAl4HU
-  chatId=73804219
+  apiToken=<put your api key here>
+  chatId=<put your chat id here>
   url="https://api.telegram.org/bot$apiToken/sendMessage"
 
   curl -s -X POST $url -d chat_id=$chatId -d text="$1"
