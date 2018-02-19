@@ -49,3 +49,6 @@ Send notification to telegram when fail2ban ban an IP address and unband an IP a
 systemctl start ssh-server  
 systemctl start vsftpd  
 systemctl start fail2ban
+
+### Demo video
+[![Fail2ban with telegram notification](http://img.youtube.com/vi/LYLiCK5XGXk/0.jpg)](https://youtu.be/LYLiCK5XGXk)
